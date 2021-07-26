@@ -7,8 +7,7 @@ referencia puede ser numérica o alfanumérica y con una longitud máxima de 39 
 _Referencia del cliente 19928756_
 _Llamada a la función modulo10, para obtener la referencia de pago_
 ``
-referencia = modulo10('19928756')
-print("Referencia: " + referencia) # 199287566
+referencia = modulo10('19928756') # 199287566
 ``
 ### HSBC adicional
 _Para mayor información contactar a los ejecutivos de HSBC_
