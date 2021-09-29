@@ -79,12 +79,15 @@ def modulo10(ref):
     for item in ref:
         numerica += str(parseToNumber(item))
     print("Numerica: " + numerica)
-    digito_verificador = rutinaCalc(str(numerica))
+    digito_verificador = rutinaCalc(str(numerica))    
     print("Verificador: " + str(digito_verificador))
+    if digito_verificador == 10:
+        digito_verificador = 0
     return str(ref) + str(digito_verificador)
 
 
 if __name__ == '__main__':
     # Ingresar la clave del cliente
-    referencia = modulo10('03850')
+    # 03850
+    referencia = modulo10('001834')
     print("Referencia: " + referencia)
